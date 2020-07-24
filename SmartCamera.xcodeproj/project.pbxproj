@@ -13,6 +13,8 @@
 		674461D824CA560C004C102E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674461D624CA560C004C102E /* Main.storyboard */; };
 		674461DA24CA560E004C102E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 674461D924CA560E004C102E /* Assets.xcassets */; };
 		674461DD24CA560E004C102E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674461DB24CA560E004C102E /* LaunchScreen.storyboard */; };
+		674461E524CA5FEF004C102E /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 674461E424CA5FEF004C102E /* SqueezeNet.mlmodel */; };
+		674461E724CA660E004C102E /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 674461E624CA660E004C102E /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		674461D924CA560E004C102E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		674461DC24CA560E004C102E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		674461DE24CA560E004C102E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		674461E424CA5FEF004C102E /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		674461E624CA660E004C102E /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				674461D024CA560C004C102E /* AppDelegate.swift */,
 				674461D224CA560C004C102E /* SceneDelegate.swift */,
 				674461D424CA560C004C102E /* ViewController.swift */,
+				674461E624CA660E004C102E /* Resnet50.mlmodel */,
 				674461D624CA560C004C102E /* Main.storyboard */,
+				674461E424CA5FEF004C102E /* SqueezeNet.mlmodel */,
 				674461D924CA560E004C102E /* Assets.xcassets */,
 				674461DB24CA560E004C102E /* LaunchScreen.storyboard */,
 				674461DE24CA560E004C102E /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				674461E724CA660E004C102E /* Resnet50.mlmodel in Sources */,
 				674461D524CA560C004C102E /* ViewController.swift in Sources */,
 				674461D124CA560C004C102E /* AppDelegate.swift in Sources */,
 				674461D324CA560C004C102E /* SceneDelegate.swift in Sources */,
+				674461E524CA5FEF004C102E /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
