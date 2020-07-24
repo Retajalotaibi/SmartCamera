@@ -45,7 +45,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     
     }
 
-         //MARK: - analyse what is this image 🤔
+         //MARK: - analyse what the image 🤔
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
         guard let pixelBuffer: CVPixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {return}
 
